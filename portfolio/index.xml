@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Portfolios on Maison réalité</title>
+    <link>https://newwebsite.maisonrealite.com/portfolio/</link>
+    <description>Recent content in Portfolios on Maison réalité</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 19 Nov 2019 11:48:49 +0000</lastBuildDate>
+    
+	<atom:link href="https://newwebsite.maisonrealite.com/portfolio/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Rohmer&#39;s light</title>
+      <link>https://newwebsite.maisonrealite.com/portfolio/rohmerslight/</link>
+      <pubDate>Sat, 05 Nov 2016 14:11:01 +0000</pubDate>
+      
+      <guid>https://newwebsite.maisonrealite.com/portfolio/rohmerslight/</guid>
+      <description>Light painting</description>
+    </item>
+    
+    <item>
+      <title>Pas terne</title>
+      <link>https://newwebsite.maisonrealite.com/portfolio/pasterne/</link>
+      <pubDate>Sat, 05 Nov 2016 12:55:22 +0000</pubDate>
+      
+      <guid>https://newwebsite.maisonrealite.com/portfolio/pasterne/</guid>
+      <description>Photography book</description>
+    </item>
+    
+    <item>
+      <title>Black robe</title>
+      <link>https://newwebsite.maisonrealite.com/portfolio/black-robe/</link>
+      <pubDate>Tue, 19 Nov 2019 11:48:49 +0000</pubDate>
+      
+      <guid>https://newwebsite.maisonrealite.com/portfolio/black-robe/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
