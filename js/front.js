@@ -38,11 +38,35 @@ function carousels() {
 
 $(document).ready(function() {
 
+    /* owl carousel*/
     var owl = $('.owl-carousel');
     owl.owlCarousel({
         loop:true,
         margin:10,
     });
+
+    /* menu show where we are*/
+    var fullurl = window.location.href.split("/");
+    var menuurl = fullurl.length - 1;
+    switch(fullurl[3]) {
+        case "about":
+          // code block
+          console.log("about")
+          document.getElementById("about/").style.borderBottom = "thin dotted #000";
+          break;
+        case "portfolio":
+          // code block
+          console.log("portfolio")
+          document.getElementById("portfolio/").style.borderBottom = "thin dotted #000";
+          break;
+        case "contact": 
+            console.log("contact")
+            document.getElementById("contact/").style.borderBottom = "thin dotted #000";
+        default:
+          // code block
+          console.log(window.location.href);
+          console.log(fullurl[3]);
+      }
 
     /*keyboard navigation*/
     $(document.documentElement).keyup(function(event) {    
