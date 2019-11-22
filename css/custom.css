@@ -43,3 +43,21 @@ a.peecho-btn-okay .peecho-print-button .peecho-btn .peecho-btn-tooltip {
     position: relative;
     left: -33px;
 }
+
+.snipcart-checkout-transitions {
+    &-enter-active {
+        animation: slideIn 1s;    
+    }
+    &-leave-active {
+        animation: slideIn 0.8s reverse;
+    }
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-110%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
