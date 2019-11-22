@@ -40,7 +40,7 @@ fields:
       options: []
       source:
         type: pages
-        section: portfolio
+        section: projects
         file: 
         path: 
     label: product_url
