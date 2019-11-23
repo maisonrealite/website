@@ -24,7 +24,7 @@
                   data-item-id="{{ .id }}"
                   data-item-name="{{ .name }}"
                   data-item-price="{{ .price }}"
-                  data-item-url="{{ replace .product_url ".md" "/" | absURL}}"
+                  data-item-url="{{ replace .product_url ".md" "/" | lower | absURL}}"
                   data-item-image="{{ .image | absURL }}"
                   data-item-description="{{ .description }}">
                   Add to cart
